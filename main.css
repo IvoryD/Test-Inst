@@ -2,7 +2,18 @@ body{
 	background-color: #141414;
 }
 
-.header{
+#content {
+	border-radius: 5px;
+	width: 840px;
+	border: solid 1px #696969;
+	background-color:#1f1f1f;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+} 
+
+header{
 	margin-left: 100px;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -12,7 +23,21 @@ body{
 	border-color: #696969;
 	border-radius: 5px 0px 0px 5px;
 	background-color:#141414;
+	display: flex;
+	flex-direction:row;
 }	
+
+#userPicture{
+	border-radius: 50%;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	margin: 10px 0px 10px 10px;
+}
+
+#info{
+	margin: 10px 0px 10px 10px;	
+}
 
 #picList{
 	align-items:center;
@@ -34,43 +59,9 @@ body{
 	margin-left:10px;
 }
 
-#content {
-	border-radius: 5px;
-	width: 840px;
-	border: solid 1px #696969;
-	background-color:#1f1f1f;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-} 
-
-#userPicture{
-	border-radius: 50%;
-	overflow: hidden;
-	height: 150px;
-	width: 150px;
-	margin: 10px 0px 10px 10px;
-}
-#info{
-	margin: 10px 0px 10px 10px;	
-}
-
-.header{ 
-	display: flex;
-	flex-direction:row;
-}
-
-#info{
-	margin-left:50px;
-}
-
 /*кнопка*/
 #loadButton{
 	height: 50px;
-}
-
-#loadButton{
 	background-color:#1f1f1f;
 	transition:background-color.2s;
 	color:#DDDDDD;

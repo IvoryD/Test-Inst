@@ -1,4 +1,3 @@
-
 window.onload = function () {
     var token = '21126882897.79a7067.c1a5b68a5ab24d0d8037ed289fdac546';
     var count = 5;
@@ -27,7 +26,6 @@ window.onload = function () {
         }
     });
 
-
     function vivod() {
         $.ajax({
             url: 'https://api.instagram.com/v1/users/self/media/recent',
@@ -37,7 +35,7 @@ window.onload = function () {
 
             success: function (result) {
                 console.log(result);
-                for (x in result.data) {
+                for (var x in result.data) {
 
                     var picInfo = document.createElement('div');
                     picInfo.setAttribute('id', "picInfo");
@@ -45,22 +43,22 @@ window.onload = function () {
                     var caption = document.createElement('div');
                     caption.setAttribute('id', "caption");
                     if (result.data[x].caption) {
-                        caption.append('Описание: ' + result.data[x].caption.text + '.' + ' ');
+                        caption.append('Описание: ' + result.data[x].caption.text + '.');
                     }
                     picInfo.append(caption);
 
                     var countLikes = document.createElement('div');
                     countLikes.setAttribute('id', "countLikes");
-                    countLikes.append('Кол-во лайков: ' + result.data[x].likes.count + '.' + ' ');
+                    countLikes.append('Кол-во лайков: ' + result.data[x].likes.count + '.');
                     picInfo.append(countLikes);
 
                     var countComment = document.createElement('div');
                     countComment.setAttribute('id', "countComment");
-                    countComment.append('Кол-во комментариев: ' + result.data[x].comments.count + '.' + ' ');
+                    countComment.append('Кол-во комментариев: ' + result.data[x].comments.count + '.');
                     picInfo.append(countComment);
 
                     var listTags = document.createElement('div');
-                    listTags.append('Теги: ' + result.data[x].tags.map(item => " " + item) + '.' + ' ');
+                    listTags.append('Теги: ' + result.data[x].tags.map(item => " " + item) + '.');
                     picInfo.append(listTags);
 
                     var date = document.createElement('div');
@@ -91,7 +89,5 @@ window.onload = function () {
         });
     }
     vivod();
-
     $('#loadButton').click(vivod);
 };
-
