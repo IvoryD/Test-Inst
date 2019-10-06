@@ -1,0 +1,50 @@
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-items:center;
+}
+
+span{
+    color:rgb(0, 0, 0);
+}
+
+.content{
+    position: relative;
+    margin-top:150px;
+    padding: 10px;
+    padding-top: 50px;
+    background: linear-gradient(to top, rgb(221, 221, 221), rgb(255,255,255));
+    border-radius: 0 0 10px 10px;
+    border:1px solid rgb(122, 122, 122);
+    z-index: 1;
+}
+
+.content:after{
+    position: absolute;
+    content: 'ЭКГ-5 ';
+    color: rgb(255, 180, 108);
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-top: 10px;
+    top: -1px;
+    height: 36px;
+    width: 98px;
+    left: -1px;
+    background: rgb(0, 0, 0);
+    z-index: 1000;
+}
+
+.content::before{
+    position: absolute;
+    content: '';
+    top: -15px;
+    height: 55px;
+    width: 34px;
+    left: 89px;
+    background: rgb(0, 0, 0);
+    z-index: 500;
+    transform: rotate(30deg);
+}

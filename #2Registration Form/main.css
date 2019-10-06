@@ -1,0 +1,77 @@
+header{
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.registery{
+    font-size: 20pt;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-items:center;
+}
+
+form{
+    align-content:center;
+    width: 500px;
+}
+
+fieldset{
+    padding: 0px 0px 0px 0px;
+    border: solid rgb(0, 113, 175);
+    background: rgb(0, 140, 203);
+    width: 500px;
+}
+
+.text{
+    margin-top: 10px;
+    color: white;
+    font-size: 14pt;
+}
+
+.inputEmail{
+    width: 396px;
+}
+
+#confirm_password{
+    width: 180px;
+}
+
+#password{
+    width: 180px;
+}
+
+.blockEmail{
+    margin-top: 30px;
+    margin-left:20px;
+}
+
+.blockPassword{
+    width:400px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left:20px;
+}
+
+.sendButton{
+    background-color: rgb(255, 226, 136);
+    font-size:10pt;
+    color:black;
+    border:0;
+    outline: none;
+
+    padding: 7px;
+
+    margin-left:20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

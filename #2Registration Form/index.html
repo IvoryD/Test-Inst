@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1.2</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <!-------------------------------------------------->
+            <header>
+                <span class="registery">Регистрация</span>
+            </header>
+            <!-------------------------------------------------->
+
+            <div class="blockEmail">
+                <label class="text" for="email">E-mail</label><br>
+                <input class="inputEmail" type="email" required>
+            </div>
+
+            <div class="blockPassword">
+
+                <div>
+                    <label class="text" for="password">Пароль</label><br>
+                    <input id="password" name="password" type="password" requiredonkeyup='check();'>
+                </div>
+
+                <div>
+                    <label class="text" for="password">Еще раз</label><br>
+                    <input id="confirm_password" name="confirm_password" type="password" required onkeyup='check();'><br>
+                    <span id='message'></span>
+                </div>
+
+            </div>
+
+            <button class="sendButton">Отправить</button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
