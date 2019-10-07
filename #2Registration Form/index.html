@@ -11,39 +11,44 @@
 
 <body>
 
-    <form>
-        <fieldset>
-            <!-------------------------------------------------->
-            <header>
-                <span class="registery">Регистрация</span>
-            </header>
-            <!-------------------------------------------------->
+    <div class="largeConteiner">
+        
+        <header>
+            <span class="registery">Регистрация</span>
+        </header>
 
-            <div class="blockEmail">
-                <label class="text" for="email">E-mail</label><br>
-                <input class="inputEmail" type="email" required>
-            </div>
+        <form>
 
-            <div class="blockPassword">
 
-                <div>
-                    <label class="text" for="password">Пароль</label><br>
-                    <input id="password" name="password" type="password" requiredonkeyup='check();'>
+            <fieldset>
+
+                <div class="conteinerEmail">
+                    <label class="text" for="email">E-mail</label>
+                    <input class="inputEmail" type="email" required>
                 </div>
 
-                <div>
-                    <label class="text" for="password">Еще раз</label><br>
-                    <input id="confirm_password" name="confirm_password" type="password" required onkeyup='check();'><br>
-                    <span id='message'></span>
+                <div class="blockPassword">
+
+                    <div class="conteinerPassword">
+                        <label class="text" for="password">Пароль</label>
+                        <input id="password" name="password" type="password" requiredonkeyup='check();'>
+                    </div>
+
+                    <div class="conteinerConfirmPassword">
+                        <label class="text" for="confirm_password">Еще раз</label>
+                        <input id="confirm_password" name="confirm_password" type="password" required
+                            onkeyup='check();'>
+                        <span id='message'></span>
+                    </div>
+
                 </div>
 
-            </div>
+                <button class="sendButton">Отправить</button>
 
-            <button class="sendButton">Отправить</button>
+            </fieldset>
+        </form>
 
-        </fieldset>
-    </form>
-
+    </div>
 </body>
 
 </html>
