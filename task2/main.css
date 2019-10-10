@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,134 +11,127 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*=========================================== Конец CSS Reset =====================================================================================*/
 
-
-
-.page{
+.page {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;	
-
+	align-items: center;
 }
 
-.container1{
+.container1 {
 	display: flex;
 	flex-direction: column;
-
 }
 
-
-
-header{
+header {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: nowrap;
 	width: 100%;
 }
 
-nav{
+nav {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: nowrap;
 }
 
-.a, .b, .c, .d, .e, .search{
+.a, .b, .c, .d, .e, .search {
 	white-space: nowrap;
 }
 
-
-
-.search{
+.search {
 	width: 100%;
 	align-self: stretch;
 }
 
-
-
-.container2{
+.container2 {
 	display: flex;
 	align-items: stretch;
 	flex-wrap: nowrap;
-	
 }
 
-.inner-section-Top{
+.inner-section-Top {
 	display: flex;
 	align-items: stretch;
 	flex-wrap: nowrap;
-
 }
-	
-.bottom-Hight-block{
+
+.bottom-Hight-block {
 	display: flex;
 	flex-direction: column;
 }
 
-
-.section-Right{
+.section-Right {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 }
 
-
-.section-Left{
+.section-Left {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-between;
 }
 
-.l2{
+.l2 {
 	align-self: stretch;
 }
 
-
-.inner-section-Bottom{
+.inner-section-Bottom {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
 }
-.bottom-right-block{
+
+.bottom-right-block {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 }
-.info{
+
+.info {
 	display: flex;
 	justify-content: space-between;
 }
 
-.no-image{  
+.no-image {
 	height: 100%;
 	display: flex;
 }
 
-.no-image article{  
+.no-image article {
 	width: 100%;
 }

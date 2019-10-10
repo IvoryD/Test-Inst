@@ -1,28 +1,27 @@
-article{
+article {
 	padding: 15px;
 	justify-content: space-between;
 	display: flex;
 	flex-direction: column;
 }
 
-.a, .b, .c, .d, .e, .search{
+.a, .b, .c, .d, .e, .search {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.topick{
-	padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-body{
 	padding-bottom: 15px;
 }
 
-.page{
+.topick {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+body {
+	padding-bottom: 15px;
+}
+
+.page {
 	padding-left: 200px;
 	padding-right: 200px;
 }
-
