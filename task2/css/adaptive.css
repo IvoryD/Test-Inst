@@ -1,3 +1,11 @@
+@media screen and (min-width: 1680px) {
+
+    .page{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+
 @media screen and (max-width: 1500px) {
 
     .page{
@@ -67,13 +75,10 @@
 	.inner-section-Top{
 		flex-direction: column-reverse;
     }
-    .news1{
-        height: 544px;
-    }
-    
+ 
     .page{
-        padding-left: 15px; 
-        padding-right: 15px;
+        padding-left: 50px; 
+        padding-right: 50px;
     }
 
     .image-1{
@@ -83,6 +88,7 @@
 
     .image-2{
         min-width: 150.5px;
+        width:100%;
     }
 
     .image-3{
@@ -111,11 +117,12 @@
 }	
 
 
+
 @media screen and (max-width: 799px) {
 
     .page{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
 
     }
 
@@ -139,7 +146,7 @@
         width: 100%;
     }
     
-    .a, .b, .c, .d, .e{
+    .home, .contacts, .about-me, .partners, .sign-in{
         box-sizing: border-box;
         width: 100%;
     }
@@ -148,7 +155,7 @@
         visibility: hidden;
     }
 
-    .container2{
+    .container{
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -176,12 +183,12 @@
     }
 
 
-    .section-Right{
+    .section-2{
         margin-left: 0;
         margin-top: 7.5px;
     }
     
-    .container2{
+    .container{
         margin-top: 30px;
     }
     
@@ -212,3 +219,11 @@
         margin-top:7.5px;
     }
 }	
+
+@media screen and (max-width: 670px) {
+    .page{
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+}

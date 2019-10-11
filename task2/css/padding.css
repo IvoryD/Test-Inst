@@ -5,7 +5,7 @@ article {
 	flex-direction: column;
 }
 
-.a, .b, .c, .d, .e, .search {
+.home, .contacts, .about-me, .partners, .sign-in, .search {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 15px;

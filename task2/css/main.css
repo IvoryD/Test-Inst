@@ -45,10 +45,6 @@ table {
 	text-align: center;
 }
 
-.page {
-
-}
-
 header {
 	display: flex;
 	align-items: flex-start;
@@ -61,7 +57,7 @@ nav {
 	flex-wrap: nowrap;
 }
 
-.a, .b, .c, .d, .e, .search {
+.home, .contacts, .about-me, .partners, .sign-in, .search {
 	white-space: nowrap;
 }
 
@@ -70,7 +66,7 @@ nav {
 	width: 100%;
 }
 
-.container2 {
+.container{
 	display: flex;
 	align-items: stretch;
 	flex-wrap: nowrap;
@@ -87,21 +83,17 @@ nav {
 	flex-direction: column;
 }
 
-.section-Right {
+.section-2 {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 }
 
-.section-Left {
+.section-1 {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-between;
-}
-
-.l2 {
-	align-self: stretch;
 }
 
 .inner-section-Bottom {
