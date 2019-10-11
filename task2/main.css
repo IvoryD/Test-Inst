@@ -41,24 +41,18 @@ table {
 }
 
 /*=========================================== Конец CSS Reset =====================================================================================*/
-
-.page {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.topick{
+	text-align: center;
 }
 
-.container1 {
-	display: flex;
-	flex-direction: column;
+.page {
+
 }
 
 header {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: nowrap;
-	width: 100%;
 }
 
 nav {
@@ -72,8 +66,8 @@ nav {
 }
 
 .search {
-	width: 100%;
 	align-self: stretch;
+	width: 100%;
 }
 
 .container2 {
