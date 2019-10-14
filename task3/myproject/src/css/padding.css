@@ -1,0 +1,24 @@
+article {
+	padding: 15px;
+}
+
+.home, .contacts, .about-me, .partners, .sign-in, .search {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.topick {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+body {
+	padding-bottom: 15px;
+}
+
+.page {
+	padding-left: 200px;
+	padding-right: 200px;
+}
