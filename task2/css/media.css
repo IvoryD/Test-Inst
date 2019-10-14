@@ -82,24 +82,24 @@
     }
 
     .image-1{
-        min-width: 150.5px;
+        min-width: 150px;
         height: 340px;
     }
 
     .image-2{
-        min-width: 150.5px;
+        min-width: 150px;
         width:100%;
     }
 
     .image-3{
         height: 171px;
-        min-width: 181.25px;
+        min-width: 181px;
         flex-shrink: 0;
     }
 
     .image-4{
         height: 171px;
-        min-width: 181.25px;
+        min-width: 181px;
     }
 
     .bottom-Hight-block article{
@@ -185,7 +185,7 @@
 
     .section-2{
         margin-left: 0;
-        margin-top: 7.5px;
+        margin-top: 7px;
     }
     
     .container{
@@ -202,7 +202,7 @@
     }
       
     .no-image{
-        margin-top: 7.5px;
+        margin-top: 7px;
     }
     
     .info{
@@ -212,11 +212,11 @@
     .inner-section-Bottom{
         display: flex;
         flex-direction: column;
-        margin-top:7.5px;
+        margin-top: 7px;
     }
 
     .bottom-right-block{
-        margin-top:7.5px;
+        margin-top: 7px;
     }
 }	
 
