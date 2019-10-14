@@ -72,7 +72,7 @@
         font-size: 32px;
     }
 
-	.inner-section-Top{
+	.inner-section-top{
 		flex-direction: column-reverse;
     }
  
@@ -102,11 +102,11 @@
         min-width: 181px;
     }
 
-    .bottom-Hight-block article{
+    .bottom-hight-block article{
         height: 100%;
     }
 
-    .bottom-Hight-block {
+    .bottom-hight-block {
         flex-basis: 0;
         flex-grow: 1;
     }
@@ -115,8 +115,6 @@
         flex-grow: 1;
     }
 }	
-
-
 
 @media screen and (max-width: 799px) {
 
@@ -193,7 +191,7 @@
     }
     
     
-    .inner-section-Bottom{
+    .inner-section-bottom{
         margin-top: 0;
     }
     
@@ -209,7 +207,7 @@
         margin-top: 15px;
     }
 
-    .inner-section-Bottom{
+    .inner-section-bottom{
         display: flex;
         flex-direction: column;
         margin-top: 7px;

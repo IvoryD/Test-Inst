@@ -29,13 +29,13 @@ nav {
 	flex-wrap: nowrap;
 }
 
-.inner-section-Top {
+.inner-section-top {
 	display: flex;
 	align-items: stretch;
 	flex-wrap: nowrap;
 }
 
-.bottom-Hight-block {
+.bottom-hight-block {
 	display: flex;
 	flex-direction: column;
 }
@@ -53,7 +53,7 @@ nav {
 	justify-content: space-between;
 }
 
-.inner-section-Bottom {
+.inner-section-bottom {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
