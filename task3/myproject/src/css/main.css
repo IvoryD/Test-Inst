@@ -1,0 +1,86 @@
+.topick{
+	text-align: center;
+}
+
+header {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+nav {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+.home, .contacts, .about-me, .partners, .sign-in, .search {
+	white-space: nowrap;
+}
+
+.search {
+	align-self: stretch;
+	width: 100%;
+}
+
+.container{
+	display: flex;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+
+.inner-section-top {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+
+.bottom-hight-block {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.section-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.inner-section-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.bottom-right-block {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.no-image {
+	height: 100%;
+	display: flex;
+}
+
+.no-image article {
+	width: 100%;
+}
+
+article {
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+}
