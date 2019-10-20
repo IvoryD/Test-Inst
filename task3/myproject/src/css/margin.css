@@ -1,0 +1,47 @@
+body .page header nav .home {
+  margin-right: 10px; }
+
+body .page header nav .contacts {
+  margin-right: 10px; }
+
+body .page header nav .about-me {
+  margin-right: 10px; }
+
+body .page header nav .partners {
+  margin-right: 10px; }
+
+body .page header .search {
+  margin-right: 10px; }
+
+body .page .container {
+  margin-top: 30px; }
+  body .page .container .section-1 .news article .info {
+    margin-top: 15px; }
+  body .page .container .section-1 .no-image {
+    margin-top: 15px; }
+    body .page .container .section-1 .no-image article .info {
+      margin-top: 15px; }
+  body .page .container .section-1 .no-image {
+    margin-top: 15px; }
+    body .page .container .section-1 .no-image article .info {
+      margin-top: 15px; }
+  body .page .container .section-1 .no-image {
+    margin-top: 15px; }
+    body .page .container .section-1 .no-image article .info {
+      margin-top: 15px; }
+  body .page .container .section-2 {
+    margin-left: 15px; }
+    body .page .container .section-2 .inner-section-top article .info {
+      margin-top: 15px; }
+    body .page .container .section-2 .inner-section-bottom {
+      margin-top: 15px; }
+      body .page .container .section-2 .inner-section-bottom .bottom-hight-block article .info {
+        margin-top: 15px; }
+    body .page .container .section-2 .bottom-right-block {
+      margin-left: 15px; }
+      body .page .container .section-2 .bottom-right-block .news article .info {
+        margin-top: 15px; }
+      body .page .container .section-2 .bottom-right-block .no-image {
+        margin-top: 15px; }
+        body .page .container .section-2 .bottom-right-block .no-image article .info {
+          margin-top: 15px; }

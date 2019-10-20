@@ -1,0 +1,126 @@
+body .page .topick {
+  text-align: center; }
+
+body .page header {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap; }
+  body .page header nav {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap; }
+    body .page header nav .home {
+      white-space: nowrap; }
+    body .page header nav .contacts {
+      white-space: nowrap; }
+    body .page header nav .about-me {
+      white-space: nowrap; }
+    body .page header nav .partners {
+      white-space: nowrap; }
+  body .page header .search {
+    white-space: nowrap;
+    align-self: stretch;
+    width: 100%; }
+  body .page header .sign-in {
+    white-space: nowrap; }
+
+body .page .container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap; }
+  body .page .container .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between; }
+    body .page .container .section-1 .news article {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column; }
+      body .page .container .section-1 .news article .info {
+        display: flex;
+        justify-content: space-between; }
+    body .page .container .section-1 .no-image {
+      height: 100%;
+      display: flex; }
+      body .page .container .section-1 .no-image article {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+        body .page .container .section-1 .no-image article .info {
+          display: flex;
+          justify-content: space-between; }
+    body .page .container .section-1 .no-image {
+      height: 100%;
+      display: flex; }
+      body .page .container .section-1 .no-image article {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+        body .page .container .section-1 .no-image article .info {
+          display: flex;
+          justify-content: space-between; }
+    body .page .container .section-1 .no-image {
+      height: 100%;
+      display: flex; }
+      body .page .container .section-1 .no-image article {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+        body .page .container .section-1 .no-image article .info {
+          display: flex;
+          justify-content: space-between; }
+  body .page .container .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
+    body .page .container .section-2 .inner-section-top {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: nowrap; }
+      body .page .container .section-2 .inner-section-top article {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column; }
+        body .page .container .section-2 .inner-section-top article .info {
+          display: flex;
+          justify-content: space-between; }
+    body .page .container .section-2 .inner-section-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch; }
+      body .page .container .section-2 .inner-section-bottom .bottom-hight-block {
+        display: flex;
+        flex-direction: column; }
+        body .page .container .section-2 .inner-section-bottom .bottom-hight-block article {
+          justify-content: space-between;
+          display: flex;
+          flex-direction: column; }
+          body .page .container .section-2 .inner-section-bottom .bottom-hight-block article .info {
+            display: flex;
+            justify-content: space-between; }
+    body .page .container .section-2 .bottom-right-block {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column; }
+      body .page .container .section-2 .bottom-right-block .news article {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column; }
+        body .page .container .section-2 .bottom-right-block .news article .info {
+          display: flex;
+          justify-content: space-between; }
+      body .page .container .section-2 .bottom-right-block .no-image {
+        height: 100%;
+        display: flex; }
+        body .page .container .section-2 .bottom-right-block .no-image article {
+          justify-content: space-between;
+          display: flex;
+          flex-direction: column;
+          width: 100%; }
+          body .page .container .section-2 .bottom-right-block .no-image article .info {
+            display: flex;
+            justify-content: space-between; }

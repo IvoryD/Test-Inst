@@ -1,0 +1,54 @@
+body {
+  padding-bottom: 15px; }
+  body .page {
+    padding-left: 200px;
+    padding-right: 200px; }
+    body .page .topick {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    body .page header nav .home {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page header nav .contacts {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page header nav .about-me {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page header nav .partners {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page header .search {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page header .sign-in {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    body .page .container .section-1 .news article {
+      padding: 15px; }
+    body .page .container .section-1 .no-image article {
+      padding: 15px; }
+    body .page .container .section-1 .no-image article {
+      padding: 15px; }
+    body .page .container .section-1 .no-image article {
+      padding: 15px; }
+    body .page .container .section-2 .inner-section-top article {
+      padding: 15px; }
+    body .page .container .section-2 .inner-section-bottom .bottom-hight-block article {
+      padding: 15px; }
+    body .page .container .section-2 .bottom-right-block .news article {
+      padding: 15px; }
+    body .page .container .section-2 .bottom-right-block .no-image article {
+      padding: 15px; }

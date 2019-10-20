@@ -1,0 +1,27 @@
+body .page .container .section-1 .news .image-1 {
+  min-width: 290px;
+  height: 225px;
+  background: url(../Image/i1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+body .page .container .section-2 .inner-section-top .image-2 {
+  min-width: 450px;
+  height: 340px;
+  background: url(../Image/i2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+body .page .container .section-2 .inner-section-bottom .bottom-hight-block .image-3 {
+  min-width: 390px;
+  height: 400px;
+  background: url(../Image/i3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+body .page .container .section-2 .bottom-right-block .news .image-4 {
+  min-width: 290px;
+  height: 171px;
+  background: url(../Image/i4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }

@@ -1,0 +1,256 @@
+body {
+  .page {
+    .topick {
+      text-align: center;
+      h1 {
+      }
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      nav {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        .home {
+          white-space: nowrap;
+        }
+        .contacts {
+          white-space: nowrap;
+        }
+        .about-me {
+          white-space: nowrap;
+        }
+        .partners {
+          white-space: nowrap;
+        }
+      }
+      .search {
+        white-space: nowrap;
+        align-self: stretch;
+        width: 100%;
+      }
+
+      .button {
+      }
+
+      .sign-in {
+        white-space: nowrap;
+      }
+    }
+
+    .container {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: nowrap;
+      .section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        .news {
+          .image-1 {
+          }
+          article {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            .wrapper-news {
+              .hello-world {
+              }
+              .text-default {
+              }
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              .text-default {
+              }
+            }
+          }
+        }
+        .no-image {
+          height: 100%;
+          display: flex;
+          article {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .wrapper-news {
+              .hello-world {
+              }
+              .text-default {
+              }
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              .text-default {
+              }
+            }
+          }
+        }
+        .no-image {
+          height: 100%;
+          display: flex;
+          article {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .wrapper-news {
+              .hello-world {
+              }
+              .text-default {
+              }
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              .text-default {
+              }
+            }
+          }
+        }
+        .no-image {
+          height: 100%;
+          display: flex;
+          article {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .wrapper-news {
+              .hello-world {
+              }
+              .text-default {
+              }
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              .text-default {
+              }
+            }
+          }
+        }
+      }
+      .section-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        .inner-section-top {
+          display: flex;
+          align-items: stretch;
+          flex-wrap: nowrap;
+          article {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            .wrapper-news {
+              .hello-world {
+              }
+              .text-default {
+              }
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              .text-default {
+              }
+              .text-default {
+              }
+            }
+          }
+          .image-2 {
+          }
+        }
+        .inner-section-bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: stretch;
+          .bottom-hight-block {
+            display: flex;
+            flex-direction: column;
+            .image-3 {
+            }
+            article {
+              justify-content: space-between;
+              display: flex;
+              flex-direction: column;
+              .wrapper-news {
+                .hello-world {
+                }
+                .text-default {
+                }
+              }
+              .info {
+                display: flex;
+                justify-content: space-between;
+                .text-default {
+                }
+                .text-default {
+                }
+              }
+            }
+          }
+        }
+        .bottom-right-block {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          .news {
+            .image-4 {
+            }
+            article {
+              justify-content: space-between;
+              display: flex;
+              flex-direction: column;
+              .wrapper-news {
+                .hello-world {
+                }
+                .text-default {
+                }
+              }
+              .info {
+                display: flex;
+                justify-content: space-between;
+                .text-default {
+                }
+                .text-default {
+                }
+              }
+            }
+          }
+          .no-image {
+            height: 100%;
+            display: flex;
+            article {
+              justify-content: space-between;
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              .wrapper-news {
+                .hello-world {
+                }
+                .text-default {
+                }
+              }
+              .info {
+                display: flex;
+                justify-content: space-between;
+                .text-default {
+                }
+                .text-default {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

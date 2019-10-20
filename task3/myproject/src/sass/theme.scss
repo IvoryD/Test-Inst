@@ -1,0 +1,40 @@
+$BodyBackColor: rgb(60, 179, 113);
+$ButtonTextCollor: rgb(0, 0, 0);
+$White: rgb(255, 255, 255);
+$SearchColor: rgb(138, 209, 170);
+
+body {
+  background-color: $BodyBackColor;
+  .page {
+    .topick {
+      color: $White;
+    }
+    header {
+      nav {
+        .button {
+          background: $White;
+          color: $ButtonTextCollor;
+        }
+      }
+      .search {
+        background: $SearchColor;
+      }
+      .sign-in {
+        background: $White;
+      }
+    }
+    .container {
+      background-color: $BodyBackColor;
+      .section-1 {
+        .news {
+          background: $White;
+        }
+      }
+      .section-2 {
+        .news {
+          background: $White;
+        }
+      }
+    }
+  }
+}

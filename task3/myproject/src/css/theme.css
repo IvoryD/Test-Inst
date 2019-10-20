@@ -1,0 +1,17 @@
+body {
+  background-color: mediumseagreen; }
+  body .page .topick {
+    color: white; }
+  body .page header nav .button {
+    background: white;
+    color: black; }
+  body .page header .search {
+    background: #8ad1aa; }
+  body .page header .sign-in {
+    background: white; }
+  body .page .container {
+    background-color: mediumseagreen; }
+    body .page .container .section-1 .news {
+      background: white; }
+    body .page .container .section-2 .news {
+      background: white; }
