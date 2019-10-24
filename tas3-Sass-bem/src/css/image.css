@@ -1,0 +1,23 @@
+.news .images {
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.image-1 {
+  min-width: 290px;
+  height: 225px;
+  background: url(../Image/i1.jpg); }
+
+.image-2 {
+  min-width: 450px;
+  height: 340px;
+  background: url(../Image/i2.jpg); }
+
+.image-3 {
+  min-width: 390px;
+  height: 400px;
+  background: url(../Image/i3.jpg); }
+
+.image-4 {
+  min-width: 290px;
+  height: 171px;
+  background: url(../Image/i4.jpg); }

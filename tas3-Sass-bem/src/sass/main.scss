@@ -1,0 +1,86 @@
+.topic {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  .navigation {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+
+    * {
+      white-space: nowrap;
+    }
+
+    .search {
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .section-2__top {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: nowrap;
+    }
+
+    .section-2__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+
+      .bottom__left {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bottom__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+article {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.no-image {
+  height: 100%;
+  display: flex;
+}
+
+.no-image article {
+  width: 100%;
+}
+
+.new-top {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}

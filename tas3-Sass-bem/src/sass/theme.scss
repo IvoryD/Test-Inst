@@ -1,0 +1,25 @@
+$SearchColor: rgb(138, 209, 170);
+$White: rgb(255, 255, 255);
+$Black: rgb(0, 0, 0);
+$BodyColor: rgb(60, 179, 113);
+
+body {
+  background-color: $BodyColor;
+}
+
+.topic {
+  color: $White;
+}
+
+.news {
+  background-color: $White;
+}
+
+.button {
+  background-color: $White;
+  color: $Black;
+}
+
+.search {
+  background-color: $SearchColor;
+}

@@ -1,0 +1,42 @@
+$SectionMargin: 7px;
+$InnerMargin: 14px;
+
+.container {
+  margin: 14px 0;
+}
+
+.container__section:first-child {
+  margin-right: $SectionMargin;
+}
+
+.container__section:last-child {
+  margin-left: $SectionMargin;
+}
+
+.container__section-section:first-child {
+  margin-bottom: $SectionMargin;
+}
+
+.container__section-section:last-child {
+  margin-top: $SectionMargin;
+}
+
+.container__section-section-section:first-child {
+  margin-right: $SectionMargin;
+}
+
+.container__section-section-section:last-child {
+  margin-left: $SectionMargin;
+}
+
+.navigation *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.no-image {
+  margin-top: $InnerMargin;
+}
+
+.info {
+  margin-top: $InnerMargin;
+}

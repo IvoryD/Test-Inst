@@ -1,0 +1,16 @@
+.page {
+  padding-left: 200px;
+  padding-right: 200px; }
+
+.topic {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.navigation * {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+article {
+  padding: 15px; }

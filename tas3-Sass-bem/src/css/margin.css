@@ -1,0 +1,29 @@
+.container {
+  margin: 14px 0; }
+
+.container__section:first-child {
+  margin-right: 7px; }
+
+.container__section:last-child {
+  margin-left: 7px; }
+
+.container__section-section:first-child {
+  margin-bottom: 7px; }
+
+.container__section-section:last-child {
+  margin-top: 7px; }
+
+.container__section-section-section:first-child {
+  margin-right: 7px; }
+
+.container__section-section-section:last-child {
+  margin-left: 7px; }
+
+.navigation *:not(:last-child) {
+  margin-right: 10px; }
+
+.no-image {
+  margin-top: 14px; }
+
+.info {
+  margin-top: 14px; }
